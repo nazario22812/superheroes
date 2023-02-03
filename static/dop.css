@@ -1,0 +1,94 @@
+.headder{
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    border-bottom: 0.3px solid whitesmoke;
+    padding: 15px;
+    display: flex;
+}
+  
+.vkladki{
+    margin: 15px;
+}
+
+.glavtext{
+    padding-top: 4px;
+    font-size:  14px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+  }
+
+.cont{
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    display: flex;
+
+}
+
+.komiks{
+    padding: 15px;
+    width: 90%;
+    
+}
+
+.zagolovok{
+    text-align: center;
+    font-size: 26px;
+}
+
+.txt{
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.7;
+    text-align: start;
+}
+
+
+li{
+    padding: 8px;
+}
+
+.sezon1_serii{
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+.sezon2_serii{
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+.chastini{
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.menu{
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    border-right: 0.3px solid whitesmoke;
+    padding: 15px;
+    width: 10%;
+    padding-top: 35px;
+}
+
+.spisok{
+    font-size: 19px;
+}
+
+.photkainf{
+    margin-left: 550px;
+}
+
+
+body{
+    background-color: #2c2c2c;  
+    margin: 0px;
+    font-family: Sans-serif;
+}

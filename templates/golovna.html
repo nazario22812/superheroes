@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Super Heroes</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='glov.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='ytka.ico') }}">
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCNyi1Vd9_MOj1UxSes_Mpnf6EnUgZeqys",
+        authDomain: "superhero-c3a97.firebaseapp.com",
+        projectId: "superhero-c3a97",
+        storageBucket: "superhero-c3a97.appspot.com",
+        messagingSenderId: "1045392570846",
+        appId: "1:1045392570846:web:46c21ab6f6aa31167ec54f",
+        measurementId: "G-QT7BY7CGWE"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </head>
+  <body>
+    <div class='headder'>
+      <div class='logo'>
+        <a href="{{ url_for('index') }}"><img src="{{url_for('static', filename='1377075.png')}}" alt="SUPER HEROES!!!!" width="50" height="50"></a>
+      </div>
+      
+      <div class='vkladki'>
+        <div class='glavtext'>
+          Цікаві комікси "SUPER HEROES"
+        </div> 
+      </div>
+    </div> 
+
+    <div class = 'cont'>
+      <div class='menu'>
+        <div class='spisok'>Список:</div>
+        <div class = 'chastini'>
+          <li class='1sezon'>1 сезон:</li>
+            <div class='sezon1_serii'>
+              <a href="{{ url_for('firstsfs') }}"><li>1 серія</li></a>
+              <a href="{{ url_for('firstsss') }}"><li>2 серія</li></a>
+              <a href="{{ url_for('firstsths') }}"><li>3 серія</li></a>
+              <a href="{{ url_for('firstsfrs') }}"><li>4 серія</li></a>
+              <a href="{{ url_for('firstsfvs') }}"><li>5 серія</li></a>
+              <a href="{{ url_for('firstssxs') }}"><li>6 серія</li></a>
+              <a href="{{ url_for('firstssvs') }}"><li>7 серія</li></a>
+              <a href="{{ url_for('firstseis') }}"><li>8 серія</li></a>
+              <a href="{{ url_for('firstsns') }}"><li>9 серія</li></a>
+              <a href="{{ url_for('firststs') }}"><li>10 серія</li></a>
+              <a href="{{ url_for('firstseleves') }}"><li>11 серія</li></a>
+              <a href="{{ url_for('firststws') }}"><li>12 серія</li></a>
+              <a href="{{ url_for('firststhrts') }}"><li>13 серія</li></a>
+              <a href="{{ url_for('firstsfous') }}"><li>14 серія</li></a>
+              <a href="{{ url_for('firstsfiftens') }}"><li>15 серія</li></a>
+              <a href="{{ url_for('firstssixtens') }}"><li>16 серія</li></a>
+              <a href="{{ url_for('firstsseventens') }}"><li>17 серія</li></a>
+              <a href="{{ url_for('firstseightens') }}"><li>18 серія</li></a>
+              <a href="{{ url_for('firstsninetens') }}"><li>19 серія</li></a>
+              <a href="{{ url_for('firststwentys') }}"><li>Спец. серія</li></a>
+            
+            
+            
+            </div>
+          <li class='2sezon'>2 сезон:</li>
+            <div class = 'sezon2_serii'>
+              <a href="{{ url_for('first') }}"><li>1 серія</li></a>
+              <a href="{{ url_for('second') }}"><li>2 серія</li></a>
+              <a href="{{ url_for('third') }}"><li>3 серія</li></a>
+            </div>
+        </div>
+      </div>
+      <div class = 'komiks'>
+        <img class ='photkainf' src="{{url_for('static', filename='information.png')}}" alt="Info" width="550" height="450">
+      </div>
+    </div>
+  
+  </body>
+</html>
