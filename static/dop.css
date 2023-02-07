@@ -1,3 +1,30 @@
+li {
+    list-style-type: none;
+}
+
+.menu {
+        
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    border-right: 0.3px solid whitesmoke;
+    padding-left: 10px ;
+    padding-right: 25px;
+    width: 10%;
+    padding-top: 35px;
+}
+
+body{
+    background-color: #2c2c2c;  
+    margin: 0px;
+    font-family: Sans-serif;
+}
+
+.komiks{
+    padding: 15px;
+    width: 89%;
+    
+}
+
 .headder{
     background-color: #2c2c2c;
     color: whitesmoke;
@@ -5,22 +32,10 @@
     padding: 15px;
     display: flex;
 }
-  
+
 .vkladki{
     margin: 15px;
 }
-
-.glavtext{
-    padding-top: 4px;
-    font-size:  14px;
-    font-weight: bold;
-}
-
-a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 14px;
-  }
 
 .cont{
     background-color: #2c2c2c;
@@ -29,66 +44,1635 @@ a{
 
 }
 
-.komiks{
-    padding: 15px;
-    width: 90%;
+.glavtext{
+    padding-top: 4px;
+    font-size:  19px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 2560px){
+    .sezon1{
+        font-size: 19px;
+      }
+    
+      .sezon2{
+        font-size: 19px;
+      }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  20px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 2048px){
+    .sezon1{
+        font-size: 18px;
+      }
+    
+      .sezon2{
+        font-size: 18px;
+      }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  20px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 19px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 17px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .sezon1{
+        font-size: 18px;
+      }
+    
+      .sezon2{
+        font-size: 18px;
+      }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  18px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 19px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 17px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (max-width: 1680px){
+    .sezon1{
+        font-size: 17px;
+      }
+    
+      .sezon2{
+        font-size: 17px;
+      }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1600px){
+    .sezon1{
+        font-size: 17px;
+      }
+    
+    .sezon2{
+        font-size: 17px;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .sezon1{
+        font-size: 17px;
+      }
+    
+    .sezon2{
+        font-size: 17px;
+      }
+    
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+    .sezon1{
+        font-size: 17px;
+    }
+    
+    .sezon2{
+        font-size: 17px;
+    }
+    
+
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 18px;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 1350px){
+    .sezon1{
+        font-size: 17px;
+      }
+    
+      .sezon2{
+        font-size: 17px;
+      }
+    
+
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 18px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 18px;
+    }
+
     
 }
 
-.zagolovok{
-    text-align: center;
-    font-size: 26px;
+
+@media screen and (max-width: 1280px){
+    .sezon1{
+        font-size: 16px;
+    }
+    
+    .sezon2{
+        font-size: 16px;
+    }
+    
+    
+
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 17px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 17px;
+    }
+
 }
 
-.txt{
-    font-size: 18px;
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 1.7;
-    text-align: start;
+@media screen and (max-width: 1198px){
+    .sezon1{
+        font-size: 16px;
+      }
+    
+    .sezon2{
+        font-size: 16px;
+      }
+    
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 17px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 17px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1152px){
+    .sezon1{
+        font-size: 16px;
+      }
+    
+    .sezon2{
+        font-size: 16px;
+      }
+    
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 17px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 17px;
+    }
+
+    
 }
 
 
-li{
-    padding: 8px;
+@media screen and (max-width: 1024px){
+    .sezon1{
+        font-size: 16px;
+      }
+    
+    .sezon2{
+        font-size: 16px;
+      }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 17px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 17px;
+    }
+
+    
 }
 
-.sezon1_serii{
-    padding-left: 16px;
+@media screen and (max-width: 960px){
+    .sezon1{
+        font-size: 15px;
+    }
+    
+    .sezon2{
+    font-size: 15px;
+    }
+    
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 17px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 16px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 854px){
+    .sezon1{
+        font-size: 15px;
+      }
+    
+      .sezon2{
+        font-size: 15px;
+      }
+    
+    
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 16px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 14px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 16px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 820px){
+    .sezon1{
+        font-size: 14px;
+    }
+    
+    .sezon2{
     font-size: 14px;
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+   
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 15px;
+    }
+
+    
 }
 
-.sezon2_serii{
-    padding-left: 16px;
-    font-size: 14px;
+
+@media screen and (max-width: 768px){
+    .sezon1{
+        font-size: 14px;
+    }
+    
+    .sezon2{
+        font-size: 14px;
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 15px;
+    }
 }
 
-.chastini{
-    padding-top: 12px;
-    padding-left: 10px;
-    font-size: 17px;
+@media screen and (max-width: 720px){
+    .sezon1{
+        font-size: 14px;
+      }
+    
+    .sezon2{
+        font-size: 14px;
+      }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 15px;
+    }
+
+    
 }
 
-.menu{
-    background-color: #2c2c2c;
-    color: whitesmoke;
-    border-right: 0.3px solid whitesmoke;
-    padding: 15px;
-    width: 10%;
-    padding-top: 35px;
+@media screen and (max-width: 640px){
+    .sezon1{
+        font-size: 14px;
+    }
+    
+    .sezon2{
+        font-size: 14px;
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 13px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    
+
+    .spisok{
+        font-size: 15px;
+    }
+
+    
 }
 
-.spisok{
-    font-size: 19px;
+@media screen and (max-width: 540px){
+    .sezon1{
+        font-size: 13px;
+      }
+    
+    .sezon2{
+        font-size: 13px;
+    }
+    
+    
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 13px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    
+
+    .spisok{
+        font-size: 14px;
+    }
 }
 
-.photkainf{
-    margin-left: 550px;
+@media screen and (max-width: 480px){
+    .sezon1{
+        font-size: 12px;
+    }
+    
+    .sezon2{
+        font-size: 12px;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 11px;
+    }
+
+   
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 12px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 12px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    
+
+    .spisok{
+        font-size: 13px;
+    }
+
+    
 }
 
+@media screen and (max-width: 425px){
+    .sezon1{
+        font-size: 11px;
+      }
+    
+      .sezon2{
+        font-size: 11px;
+      }
+    
+    
 
-body{
-    background-color: #2c2c2c;  
-    margin: 0px;
-    font-family: Sans-serif;
+    .glavtext{
+        padding-top: 4px;
+        font-size:  16px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+
+    .cont{
+        background-color: #2c2c2c;
+        color: whitesmoke;
+        display: flex;
+
+    }
+
+    .komiks{
+        padding: 15px;
+        width: 88%;
+        
+    }
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+
+    
+
+    .spisok{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    .sezon1{
+        font-size: 11px;
+      }
+    
+      .sezon2{
+        font-size: 11px;
+      }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  14px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+
+    
+
+    .spisok{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 375px){
+    .sezon1{
+        font-size: 11px;
+    }
+
+    .sezon2{
+    font-size: 11px;
+    }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  14px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+
+    
+
+    .spisok{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 360px){
+    .menu {
+        
+        background-color: #2c2c2c;
+        color: whitesmoke;
+        border-right: 0.3px solid whitesmoke;
+        padding-left: 10px ;
+        padding-right: 25px;
+        width: 12%;
+        padding-top: 35px;
+    }
+    
+    .sezon1{
+        font-size: 11px;
+    }
+    
+    .sezon2{
+        font-size: 11px;
+    }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  14px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+
+    
+
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 11px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
+
+    
+
+    .spisok{
+        font-size: 12px;
+    }
+
+    
+}
+
+@media screen and (max-width: 320px){
+    .menu {
+        
+        background-color: #2c2c2c;
+        color: whitesmoke;
+        border-right: 0.3px solid whitesmoke;
+        padding-left: 10px ;
+        padding-right: 25px;
+        width: 12%;
+        padding-top: 35px;
+    }
+    
+    .sezon1{
+        font-size: 11px;
+      }
+    
+      .sezon2{
+        font-size: 11px;
+      }
+    
+    
+
+    .glavtext{
+        padding-top: 4px;
+        font-size:  14px;
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 9px;
+    }
+
+    
+    .zagolovok{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .txt{
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        line-height: 1.7;
+        text-align: start;
+    }
+
+
+    li{
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .sezon1_serii{
+        padding-left: 6px;
+        font-size: 9px;
+    }
+
+    .sezon2_serii{
+        padding-left: 6px;
+        font-size: 9px;
+    }
+
+    .chastini{
+        padding-top: 12px;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    
+
+    .spisok{
+        font-size: 11px;
+    }
+   
 }
